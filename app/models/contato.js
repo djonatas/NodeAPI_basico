@@ -121,4 +121,6 @@ module.exports = function() {
             return obj;
         }
     };
+
+    return mongoose.model('Contato', UserSchema);
 };
